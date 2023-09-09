@@ -1,0 +1,18 @@
+
+*.db
+
+# Airflow temporary artifacts
+airflow/git_version
+airflow/www/static/coverage/
+airflow/www/*.log
+/logs/
+airflow-webserver.pid
+standalone_admin_password.txt
+warnings.txt
+
+# Airflow stuff
+logs/
+airflow.db
+airflow.cfg
+unittests.cfg
+webserver_config.py
